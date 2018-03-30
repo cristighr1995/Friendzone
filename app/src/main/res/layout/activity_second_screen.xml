@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondScreenActivity">
+    tools:context=".SecondScreenActivity"
+    android:orientation="vertical">
 
     <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation_view"
+        android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="top"
@@ -15,5 +16,10 @@
         app:itemIconTint="@color/colorAccent"
         app:itemTextColor="@color/com_facebook_button_background_color_disabled"
         app:menu="@menu/navigation_items" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frameLayout_secondActivity" />
 
 </LinearLayout>
