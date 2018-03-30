@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreenActivity">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/com_facebook_button_background_color_disabled"
+        app:menu="@menu/navigation_items" />
+
+</LinearLayout>

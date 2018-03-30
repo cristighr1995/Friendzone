@@ -2,5 +2,8 @@
     <string name="app_name">Friendzone</string>
     <string name="facebook_app_id">157699858235906</string>
     <string name="fb_login_protocol_scheme">fb157699858235906</string>
+    <string name="my_location">My location</string>
+    <string name="feed">Feed</string>
+    <string name="messenger">Messenger</string>
 
 </resources>

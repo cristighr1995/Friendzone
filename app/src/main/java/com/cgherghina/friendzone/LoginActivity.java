@@ -3,13 +3,18 @@ package com.cgherghina.friendzone;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
+import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -27,6 +32,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 public class LoginActivity extends AppCompatActivity {
@@ -45,9 +52,23 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        FacebookSdk.sdkInitialize(getApplicationContext());
-
         firebaseAuth = FirebaseAuth.getInstance();
+
+        // this is used to generate only once the hash key used in Facebook authentication
+        try {
+            PackageInfo info = getPackageManager().getPackageInfo(
+                    "com.cgherghina.friendzone",
+                    PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+
+        } catch (NoSuchAlgorithmException e) {
+
+        }
 
         callbackManager = CallbackManager.Factory.create();
         LoginButton button_loginWithFacebook = (LoginButton) findViewById(R.id.button_loginWithFacebook);
@@ -55,7 +76,6 @@ public class LoginActivity extends AppCompatActivity {
         button_loginWithFacebook.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                // App code
                 Toast.makeText(LoginActivity.this, "Loged In", Toast.LENGTH_SHORT).show();
                 handleFacebookAccessToken(loginResult.getAccessToken());
             }
@@ -70,6 +90,20 @@ public class LoginActivity extends AppCompatActivity {
                 // App code
             }
         });
+
+        AccessTokenTracker accessTokenTracker = new AccessTokenTracker() {
+            @Override
+            protected void onCurrentAccessTokenChanged(
+                    AccessToken oldAccessToken,
+                    AccessToken currentAccessToken) {
+
+                if (currentAccessToken == null){
+                    //User logged out
+                    Toast.makeText(LoginActivity.this, "Loged out", Toast.LENGTH_SHORT).show();
+                    firebaseAuth.signOut();
+                }
+            }
+        };
     }
 
     private void handleFacebookAccessToken(AccessToken token) {
