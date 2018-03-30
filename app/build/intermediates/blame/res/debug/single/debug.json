@@ -1484,10 +1484,6 @@
         "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5909810145deb8cb3a9f7cf28991be\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\src\\main\\res\\layout\\fragment_login.xml"
-    },
-    {
         "merged": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\16f6a2dac39d99f115a8e8d86b72d250\\res\\drawable\\notification_bg_low.xml"
     },

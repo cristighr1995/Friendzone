@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:21:1-36:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ca5909810145deb8cb3a9f7cf28991be\AndroidManifest.xml:17:1-22:12
@@ -32,25 +32,37 @@ MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\crist\.gr
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\73c2da7c95094c91c9fa994c08567cbc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\16f6a2dac39d99f115a8e8d86b72d250\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dd9b7f4f319a034b4f2abdb0fdba4ed4\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:7:5-42:19
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:28:5-34:19
@@ -84,31 +96,73 @@ MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:19:5-21:19
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:19:5-21:19
 	android:supportsRtl
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.cgherghina.friendzone.LoginActivity
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:12:19-48
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:15:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:19:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:23:9-24:54
+	android:value
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:23:20-65
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:26:9-29:48
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:27:13-114
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:26:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:exported
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:31:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:33:13-38:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:36:27-75
+data
+ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:37:17-75
+	android:scheme
+		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:37:23-72
 uses-sdk
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
@@ -179,14 +233,6 @@ INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidMa
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:29:9-32:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:31:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:32:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:33:9-71
 	android:name
@@ -215,16 +261,6 @@ MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\cac
 MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:19:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:20:22-64
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:21:5-77
 	android:glEsVersion

@@ -681,6 +681,8 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_web_client_id" translatable="false">418728477342-u5vt9lfcehjauks160pqb1u2tpc4v76r.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">157699858235906</string>
+    <string name="fb_login_protocol_scheme">fb157699858235906</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://friendzone-9fc15.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">418728477342</string>
