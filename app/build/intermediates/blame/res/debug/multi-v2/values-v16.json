@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\fbb4f09e080336e0e1bf7088d475beb0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5909810145deb8cb3a9f7cf28991be\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\f27ed707687bbc93cebb2d271dd05966\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\16f6a2dac39d99f115a8e8d86b72d250\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

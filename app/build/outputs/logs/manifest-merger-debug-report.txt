@@ -4,15 +4,16 @@ ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManif
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ca5909810145deb8cb3a9f7cf28991be\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0233dc0b52128497fa5e9a51065ddc5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\5aaad7498230a6bc1665d28f3c408ddf\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\864d31b5c1554c705b9f4dc66900743f\AndroidManifest.xml:16:1-30:12
 MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\4e6f3158cdcba02f91825769668b23fa\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\b6adfe46bdf375b54fbd7fe5bb8574e4\AndroidManifest.xml:16:1-21:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:21:1-45:12
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:16:1-35:12
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:16:1-29:12
 MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\2d187157b5ca8eb2e249f16cf42ffc66\AndroidManifest.xml:16:1-50:12
@@ -20,13 +21,17 @@ MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\crist\.gradle\
 MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\49bb4d4104fb63e8c85a732cbfabb538\AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\60ec4444c45f345aee743b3c95ce099f\AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\284c6a9795bdadc58cdf04f30086d3e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ece62faa3ad41ac9bb6e70a6281c849f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ff373411972d9345b06cb665f28be562\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\86fcb4bf833fa7ef1150455bb780865f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0dd4f683fbe1b1c9e26e31b678bbf176\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\75635eb9f1f80584cdf0cfab9258a988\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fb790c5b9c9364ede9c62b93bb2cc6f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\81855ddf1cd8c8d6c5bc8cff96b750d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\73c2da7c95094c91c9fa994c08567cbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\16f6a2dac39d99f115a8e8d86b72d250\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dd9b7f4f319a034b4f2abdb0fdba4ed4\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:1-21:12
@@ -46,8 +51,10 @@ INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidMa
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:28:5-34:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0233dc0b52128497fa5e9a51065ddc5\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0233dc0b52128497fa5e9a51065ddc5\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\5aaad7498230a6bc1665d28f3c408ddf\AndroidManifest.xml:5:5-20
@@ -60,10 +67,8 @@ MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.g
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:24:5-19
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\b6adfe46bdf375b54fbd7fe5bb8574e4\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\b6adfe46bdf375b54fbd7fe5bb8574e4\AndroidManifest.xml:19:5-20:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:28:5-43:19
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:24:5-34:19
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:24:5-34:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:24:5-28:19
@@ -78,20 +83,6 @@ MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\60ec4444c45f345aee743b3c95ce099f\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:19:5-21:19
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -122,8 +113,12 @@ uses-sdk
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\62aaf617789fcc14c1af1e8d039bb8ea\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ca5909810145deb8cb3a9f7cf28991be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ca5909810145deb8cb3a9f7cf28991be\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0233dc0b52128497fa5e9a51065ddc5\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f0233dc0b52128497fa5e9a51065ddc5\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\5aaad7498230a6bc1665d28f3c408ddf\AndroidManifest.xml:4:5-43
@@ -136,10 +131,8 @@ MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.g
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:23:5-43
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\b6adfe46bdf375b54fbd7fe5bb8574e4\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\b6adfe46bdf375b54fbd7fe5bb8574e4\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:17:5-43
@@ -154,24 +147,30 @@ MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\60ec4444c45f345aee743b3c95ce099f\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\284c6a9795bdadc58cdf04f30086d3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\284c6a9795bdadc58cdf04f30086d3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ece62faa3ad41ac9bb6e70a6281c849f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ece62faa3ad41ac9bb6e70a6281c849f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ff373411972d9345b06cb665f28be562\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ff373411972d9345b06cb665f28be562\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\86fcb4bf833fa7ef1150455bb780865f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\86fcb4bf833fa7ef1150455bb780865f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0dd4f683fbe1b1c9e26e31b678bbf176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0dd4f683fbe1b1c9e26e31b678bbf176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\75635eb9f1f80584cdf0cfab9258a988\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\75635eb9f1f80584cdf0cfab9258a988\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fb790c5b9c9364ede9c62b93bb2cc6f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\fb790c5b9c9364ede9c62b93bb2cc6f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\81855ddf1cd8c8d6c5bc8cff96b750d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\81855ddf1cd8c8d6c5bc8cff96b750d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\73c2da7c95094c91c9fa994c08567cbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\73c2da7c95094c91c9fa994c08567cbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\16f6a2dac39d99f115a8e8d86b72d250\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\16f6a2dac39d99f115a8e8d86b72d250\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dd9b7f4f319a034b4f2abdb0fdba4ed4\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dd9b7f4f319a034b4f2abdb0fdba4ed4\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
@@ -180,28 +179,18 @@ INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidMa
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\crist\Desktop\Work_shop\Friendzone\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\158c747e9afa73bc1650faebe9d5a19c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\22aecb3b2d4db12a9b2372653c0f08aa\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\21a945363256335f27f379c2d09b4a6b\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9b26af522769c61efd05b78063dfda70\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8fbe9f789d5d5ace4e935c759ead6551\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0db5a0f1bd74e37c22b3e9015fc646ff\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1ad1cf3fc1b895e2e40773325de683f3\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f27ed707687bbc93cebb2d271dd05966\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:28:13-35
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\fbb4f09e080336e0e1bf7088d475beb0\AndroidManifest.xml:27:13-51
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\5b89279dda3df7590281383de2958120\AndroidManifest.xml:33:19-68
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\864d31b5c1554c705b9f4dc66900743f\AndroidManifest.xml:23:9-27:19
 	android:exported
@@ -242,6 +231,14 @@ ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gr
 		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:21:19-51
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\eb6740d3ff264c58d770ade701e52b7a\AndroidManifest.xml:21:52-75
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.31.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\facebook-core-4.31.0.aar\7150c752a610d0a5606938138ad6c682\AndroidManifest.xml:40:13-70
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\4c6925512129c13afd30ef611a59ec60\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\33fbc0819bb77454a39d6e38848d02cf\AndroidManifest.xml:22:5-67
@@ -388,9 +385,3 @@ ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist
 		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\4a43a4ad1f44b493dfaac62d5d104f2c\AndroidManifest.xml:20:20-65
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\crist\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d91f60acb982d02fb83bf9b577a8633\AndroidManifest.xml:26:13-58
