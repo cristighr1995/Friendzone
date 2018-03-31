@@ -3,6 +3,9 @@
     package="com.cgherghina.friendzone">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -40,6 +43,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondScreenActivity"></activity>
+
+        <!-- Add the service created in services package !-->
+        <service android:name=".LocationMonitoringService" />
     </application>
 
 </manifest>

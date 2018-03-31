@@ -18,6 +18,7 @@ import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.Profile;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
@@ -36,6 +37,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
+import static com.cgherghina.friendzone.Constants.FACEBOOK_PROFILE_TAG;
+
 public class LoginActivity extends AppCompatActivity {
     private final String TAG = "Login Activity";
 
@@ -47,13 +50,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        firebaseAuth = FirebaseAuth.getInstance();
-
+    private void generateKeyHash() {
         // this is used to generate only once the hash key used in Facebook authentication
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
@@ -68,6 +65,21 @@ public class LoginActivity extends AppCompatActivity {
 
         } catch (NoSuchAlgorithmException e) {
 
+        }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        generateKeyHash();
+
+        if (Profile.getCurrentProfile() != null) {
+            startMainScreen();
+            finish();
         }
 
         callbackManager = CallbackManager.Factory.create();
@@ -93,22 +105,25 @@ public class LoginActivity extends AppCompatActivity {
 
         AccessTokenTracker accessTokenTracker = new AccessTokenTracker() {
             @Override
-            protected void onCurrentAccessTokenChanged(
-                    AccessToken oldAccessToken,
-                    AccessToken currentAccessToken) {
-
-                if (currentAccessToken == null){
+            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+                if (currentAccessToken == null) {
                     //User logged out
                     Toast.makeText(LoginActivity.this, "Loged out", Toast.LENGTH_SHORT).show();
                     firebaseAuth.signOut();
+                }
+                else {
+                    startMainScreen();
                 }
             }
         };
     }
 
-    private void handleFacebookAccessToken(AccessToken token) {
-        Log.d(TAG, "handleFacebookAccessToken:" + token);
+    private void startMainScreen() {
+        Intent intent = new Intent(this, SecondScreenActivity.class);
+        startActivity(intent);
+    }
 
+    private void handleFacebookAccessToken(AccessToken token) {
         AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
         firebaseAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -126,6 +141,8 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 });
+
+        startMainScreen();
     }
 
     @Override

@@ -7,15 +7,40 @@
     tools:context=".SecondScreenActivity"
     android:orientation="vertical">
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="top"
-        android:background="@color/colorPrimary"
-        app:itemIconTint="@color/colorAccent"
-        app:itemTextColor="@color/com_facebook_button_background_color_disabled"
-        app:menu="@menu/navigation_items" />
+        android:columnCount="4"
+        android:rowCount="1">
+        <ImageView
+            android:id="@+id/imageView_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home_black"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+        <ImageView
+            android:id="@+id/imageView_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_my_location_black"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+        <ImageView
+            android:id="@+id/imageView_messenger"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_message_black"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+        <ImageView
+            android:id="@+id/imageView_find"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_find"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"/>
+    </GridLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
