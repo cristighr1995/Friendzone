@@ -18,6 +18,8 @@ import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.Profile;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
@@ -31,6 +33,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 import java.security.MessageDigest;
@@ -41,10 +45,6 @@ import static com.cgherghina.friendzone.Constants.FACEBOOK_PROFILE_TAG;
 
 public class LoginActivity extends AppCompatActivity {
     private final String TAG = "Login Activity";
-
-    /* Constants used for Facebook permisions */
-    private static final String EMAIL = "email";
-    private static final String PUBLIC_PROFILE = "public_profile";
 
     private CallbackManager callbackManager;
 
@@ -84,11 +84,11 @@ public class LoginActivity extends AppCompatActivity {
 
         callbackManager = CallbackManager.Factory.create();
         LoginButton button_loginWithFacebook = (LoginButton) findViewById(R.id.button_loginWithFacebook);
-        button_loginWithFacebook.setReadPermissions("email","public_profile");
+        button_loginWithFacebook.setReadPermissions("email", "public_profile", "user_friends");
         button_loginWithFacebook.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                Toast.makeText(LoginActivity.this, "Loged In", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Logged In", Toast.LENGTH_SHORT).show();
                 handleFacebookAccessToken(loginResult.getAccessToken());
             }
 
@@ -102,20 +102,6 @@ public class LoginActivity extends AppCompatActivity {
                 // App code
             }
         });
-
-        AccessTokenTracker accessTokenTracker = new AccessTokenTracker() {
-            @Override
-            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
-                if (currentAccessToken == null) {
-                    //User logged out
-                    Toast.makeText(LoginActivity.this, "Loged out", Toast.LENGTH_SHORT).show();
-                    firebaseAuth.signOut();
-                }
-                else {
-                    startMainScreen();
-                }
-            }
-        };
     }
 
     private void startMainScreen() {
@@ -123,8 +109,20 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void addUserToDatabase() {
+        // get reference
+        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        // get current profile id
+        String userName = Profile.getCurrentProfile().getName();
+
+        // put the user in the database
+        mDatabase.child("users").child(userName).setValue(userName);
+    }
+
     private void handleFacebookAccessToken(AccessToken token) {
         AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
+
         firebaseAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -132,7 +130,14 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithCredential:success");
+
                             FirebaseUser user = firebaseAuth.getCurrentUser();
+
+                            /** Put user data in the database */
+                            addUserToDatabase();
+
+                            /** Start second screen after the user successfully logged in */
+                            startMainScreen();
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
@@ -141,8 +146,6 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 });
-
-        startMainScreen();
     }
 
     @Override

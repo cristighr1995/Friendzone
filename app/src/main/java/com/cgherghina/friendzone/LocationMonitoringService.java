@@ -12,11 +12,18 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
+import com.facebook.Profile;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class LocationMonitoringService extends Service implements
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
@@ -25,7 +32,6 @@ public class LocationMonitoringService extends Service implements
     private static final String TAG = LocationMonitoringService.class.getSimpleName();
     GoogleApiClient mLocationClient;
     LocationRequest mLocationRequest = new LocationRequest();
-
 
     public static final String ACTION_LOCATION_BROADCAST = LocationMonitoringService.class.getName() + "LocationBroadcast";
     public static final String EXTRA_LATITUDE = "extra_latitude";
@@ -46,7 +52,6 @@ public class LocationMonitoringService extends Service implements
         int priority = LocationRequest.PRIORITY_HIGH_ACCURACY; //by default
         //PRIORITY_BALANCED_POWER_ACCURACY, PRIORITY_LOW_POWER, PRIORITY_NO_POWER are the other priority modes
 
-
         mLocationRequest.setPriority(priority);
         mLocationClient.connect();
 
@@ -60,7 +65,7 @@ public class LocationMonitoringService extends Service implements
         return null;
     }
 
-    /*
+    /**
      * LOCATION CALLBACKS
      */
     @Override
@@ -84,7 +89,7 @@ public class LocationMonitoringService extends Service implements
         Log.d(TAG, "Connected to Google API");
     }
 
-    /*
+    /**
      * Called by Location Services if the connection to the
      * location client drops because of an error.
      */
@@ -93,22 +98,56 @@ public class LocationMonitoringService extends Service implements
         Log.d(TAG, "Connection suspended");
     }
 
-    //to get the location change
+    /**
+     * To get the location when change and to send it to the server (Firebase)
+      */
     @Override
     public void onLocationChanged(Location location) {
         Log.d(TAG, "Location changed");
 
-
         if (location != null) {
             Log.d(TAG, "== location != null");
 
-            //Send result to activities
-            sendMessageToUI(String.valueOf(location.getLatitude()), String.valueOf(location.getLongitude()));
+            String lat = String.valueOf(location.getLatitude());
+            String lng = String.valueOf(location.getLongitude());
+
+            // Send result to activities
+            sendMessageToUI(lat, lng);
+
+            // Send result to server
+            sendLocationToServer(lat, lng);
+        }
+    }
+
+    /**
+     * Send the user location to the Firebase RealTime Database
+     */
+    private void sendLocationToServer(String lat, String lng) {
+        // get reference
+        DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        try {
+            // get current profile id
+            String userName = Profile.getCurrentProfile().getName();
+
+            // format the hour
+            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+            String date = sdf.format(Calendar.getInstance().getTime());
+
+            // format the date and location
+            StringBuilder sb = new StringBuilder();
+            sb.append("(").append("" + lat).append(",").append("" + lng).append(") ").append(date);
+
+            // update database
+            //mDatabase.child("locations").child(userName).setValue(sb.toString());
+            mDatabase.child("locations").child(userName).setValue(new User(userName, lat, lng, date));
+        }
+        catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
     private void sendMessageToUI(String lat, String lng) {
-
         Log.d(TAG, "Sending info...");
 
         Intent intent = new Intent(ACTION_LOCATION_BROADCAST);
@@ -121,5 +160,11 @@ public class LocationMonitoringService extends Service implements
     public void onConnectionFailed(ConnectionResult connectionResult) {
         Log.d(TAG, "Failed to connect to Google API");
 
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mLocationClient.disconnect();
     }
 }

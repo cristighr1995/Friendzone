@@ -5,12 +5,74 @@
     android:layout_height="match_parent"
     tools:context=".LocationFragment">
 
-    <TextView
-        android:id="@+id/textView_my_location"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#000"
-        android:text="@string/msg_location_service_not_started" />
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_person_pin"/>
+
+        <TextView
+            android:id="@+id/textView_my_location_tracker"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/msg_location_service_not_started" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Latitude"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView_my_location_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="45.0826292"
+                android:textColor="#8b1a89"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Longitude"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView_my_location_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="22.35443"
+                android:textColor="#551a8b"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
 
 </FrameLayout>

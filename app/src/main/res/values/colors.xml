@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">	#67a1bd</color>
-    <color name="colorPrimaryDark">#7ebcc9</color>
-    <color name="colorAccent">	#81d498</color>
+    <color name="colorPrimaryDark">#255F85</color>
+    <color name="colorPrimary">#481D24</color>
+    <color name="colorAccent">#C5283D</color>
+    <color name="colorDark">#E9724C</color>
+    <color name="colorButtonNormal">#FFC857</color>
+    <color name="colorFocusedMenuBackground">#F2F2F2</color>
+    <color name="colorAppBackground">#FFFFFF</color>
 </resources>

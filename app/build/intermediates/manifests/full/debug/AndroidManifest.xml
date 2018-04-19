@@ -9,8 +9,8 @@
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
@@ -33,6 +33,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.cgherghina.friendzone.LoginActivity" >
             <intent-filter>
@@ -65,11 +66,18 @@
         </activity>
         <activity android:name="com.cgherghina.friendzone.SecondScreenActivity" />
 
+        <!-- Add the service created in services package ! -->
+        <service android:name="com.cgherghina.friendzone.LocationMonitoringService" />
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
 
         <activity android:name="com.facebook.CustomTabMainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
         <!--
  FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -81,19 +89,6 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <!--
-         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-         with the application context. This config is merged in with the host app's manifest,
-         but there can only be one provider with the same authority activated at any given
-         point; so if the end user has two or more different apps that use Facebook SDK, only the
-         first one will be able to use the provider. To work around this problem, we use the
-         following placeholder in the authority to identify each host application as if it was
-         a completely different provider.
-        -->
-        <provider
-            android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.cgherghina.friendzone.FacebookInitProvider"
-            android:exported="false" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -159,10 +154,24 @@
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.cgherghina.friendzone.FacebookInitProvider"
+            android:exported="false" />
+        <provider
+            android:name="android.arch.lifecycle.LifecycleRuntimeTrojanProvider"
+            android:authorities="com.cgherghina.friendzone.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

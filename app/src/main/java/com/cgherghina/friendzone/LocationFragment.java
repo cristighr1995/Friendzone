@@ -40,7 +40,9 @@ public class LocationFragment extends Fragment {
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
     private boolean mAlreadyStartedService = false;
 
-    private TextView textView_my_location;
+    private TextView textView_my_location_tracker;
+    private TextView textView_my_location_latitude;
+    private TextView textView_my_location_longitude;
 
     public LocationFragment() {
         // Required empty public constructor
@@ -57,18 +59,25 @@ public class LocationFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_location, container, false);
 
-        textView_my_location = v.findViewById(R.id.textView_my_location);
+        textView_my_location_tracker = v.findViewById(R.id.textView_my_location_tracker);
+        textView_my_location_latitude = v.findViewById(R.id.textView_my_location_latitude);
+        textView_my_location_longitude = v.findViewById(R.id.textView_my_location_longitude);
 
         LocalBroadcastManager.getInstance(getApplicationContext()).registerReceiver(
                 new BroadcastReceiver() {
                     @Override
                     public void onReceive(Context context, Intent intent) {
-                        String latitude = intent.getStringExtra(LocationMonitoringService.EXTRA_LATITUDE);
-                        String longitude = intent.getStringExtra(LocationMonitoringService.EXTRA_LONGITUDE);
+                        try {
+                            String latitude = intent.getStringExtra(LocationMonitoringService.EXTRA_LATITUDE);
+                            String longitude = intent.getStringExtra(LocationMonitoringService.EXTRA_LONGITUDE);
 
-                        if (latitude != null && longitude != null) {
-                            textView_my_location.setText(getString(R.string.msg_location_service_started) + "\n Latitude : " + latitude + "\n Longitude: " + longitude);
+                            if (latitude != null && longitude != null) {
+                                textView_my_location_tracker.setText(getString(R.string.msg_location_service_started));
+                                textView_my_location_latitude.setText("" + latitude);
+                                textView_my_location_longitude.setText("" + longitude);
+                            }
                         }
+                        catch(Exception e) {}
                     }
                 }, new IntentFilter(LocationMonitoringService.ACTION_LOCATION_BROADCAST)
         );
@@ -171,9 +180,9 @@ public class LocationFragment extends Fragment {
     private void startStep3() {
         //And it will be keep running until you close the entire application from task manager.
         //This method will executed only once.
-        if (!mAlreadyStartedService && textView_my_location != null) {
+        if (!mAlreadyStartedService && textView_my_location_tracker != null) {
 
-            textView_my_location.setText(R.string.msg_location_service_started);
+            textView_my_location_tracker.setText(R.string.msg_location_service_started);
             //Start location sharing service to app server.........
             Intent intent = new Intent(getApplicationContext(), LocationMonitoringService.class);
             getApplicationContext().startService(intent);
@@ -314,7 +323,7 @@ public class LocationFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        getApplicationContext().stopService(new Intent(getApplicationContext(), LocationMonitoringService.class));
-        mAlreadyStartedService = false;
+        //getApplicationContext().stopService(new Intent(getApplicationContext(), LocationMonitoringService.class));
+        //mAlreadyStartedService = false;
     }
 }

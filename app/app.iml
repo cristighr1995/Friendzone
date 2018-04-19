@@ -117,11 +117,10 @@
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime-1.0.0-alpha5" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:cardview-v7-27.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-login-4.31.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-27.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-common-4.31.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.zxing:core:3.3.0@jar" level="project" />
@@ -129,18 +128,25 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-27.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-core-4.32.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:rules-1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-11.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:extensions-1.0.0-alpha5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-connection-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-location-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps-11.0.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.firebaseui:firebase-ui-database-2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:design-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test:runner-1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4-27.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-login-4.32.0" level="project" />
     <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-android:1.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-common-4.32.0" level="project" />
     <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core-11.0.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:transition-26.1.0" level="project" />
@@ -149,7 +155,6 @@
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-media-compat-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-ui-27.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.facebook.android:facebook-core-4.31.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:27.0.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement-11.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
