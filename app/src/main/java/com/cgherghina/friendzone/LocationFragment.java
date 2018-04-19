@@ -323,7 +323,5 @@ public class LocationFragment extends Fragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        //getApplicationContext().stopService(new Intent(getApplicationContext(), LocationMonitoringService.class));
-        //mAlreadyStartedService = false;
     }
 }

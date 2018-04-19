@@ -1609,6 +1609,21 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\res\\merged\\debug\\values-v18_values-v18.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5909810145deb8cb3a9f7cf28991be\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
             "map": [
                 {
@@ -1694,21 +1709,6 @@
                         "startOffsets": "7000",
                         "endColumns": "100",
                         "endOffsets": "7096"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\crist\\Desktop\\Work_shop\\Friendzone\\app\\build\\intermediates\\res\\merged\\debug\\values-v18_values-v18.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\crist\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5909810145deb8cb3a9f7cf28991be\\res\\values-v18\\values-v18.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
                     }
                 }
             ]
