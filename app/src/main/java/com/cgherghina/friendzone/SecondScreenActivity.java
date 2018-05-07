@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -33,6 +34,8 @@ public class SecondScreenActivity extends AppCompatActivity implements View.OnCl
 
     private RelativeLayout lastLayoutClicked;
 
+    public static FloatingActionButton button_chat_writeMessage;
+
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
     private boolean mAlreadyStartedLocationService = false;
 
@@ -53,14 +56,19 @@ public class SecondScreenActivity extends AppCompatActivity implements View.OnCl
         layout_my_location.setOnClickListener(this);
         layout_messenger = findViewById(R.id.layout_messenger);
         layout_messenger.setOnClickListener(this);
-        layout_find = findViewById(R.id.layout_find);
-        layout_find.setOnClickListener(this);
+        //layout_find = findViewById(R.id.layout_find);
+        //layout_find.setOnClickListener(this);
+
+        button_chat_writeMessage = findViewById(R.id.button_chat_writeMessage);
+        button_chat_writeMessage.setOnClickListener(this);
 
         // start with my location
         startFragment(new LocationFragment());
 
         lastLayoutClicked = layout_my_location;
         setBackgroundFocus(lastLayoutClicked);
+
+
     }
 
     private void startFragment(Fragment fragment) {
@@ -71,6 +79,15 @@ public class SecondScreenActivity extends AppCompatActivity implements View.OnCl
 
     private void setBackgroundFocus(View view) {
         RelativeLayout rl = (RelativeLayout) view;
+
+        if (rl.getId() == R.id.layout_messenger) {
+            button_chat_writeMessage.setVisibility(View.VISIBLE);
+            button_chat_writeMessage.setEnabled(true);
+        }
+        else {
+            button_chat_writeMessage.setVisibility(View.GONE);
+            button_chat_writeMessage.setEnabled(false);
+        }
 
         // reset last clicked to default
         lastLayoutClicked.setBackgroundColor(getResources().getColor(R.color.colorAppBackground));
@@ -88,16 +105,28 @@ public class SecondScreenActivity extends AppCompatActivity implements View.OnCl
                 setBackgroundFocus(view);
                 startFragment(new FeedFragment());
                 break;
+
             case R.id.layout_my_location:
                 setBackgroundFocus(view);
                 startFragment(new LocationFragment());
                 break;
+
             case R.id.layout_messenger:
                 setBackgroundFocus(view);
+                startFragment(new ChatFragment());
+
                 break;
-            case R.id.layout_find:
+
+            /*case R.id.layout_find:
                 setBackgroundFocus(view);
+                break;*/
+
+            case R.id.button_chat_writeMessage:
+                startFragment(new WriteMessageFragment());
+                button_chat_writeMessage.setVisibility(View.GONE);
+                button_chat_writeMessage.setEnabled(false);
                 break;
+
             default:
                 break;
         }

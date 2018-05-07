@@ -10,8 +10,6 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:columnCount="7"
-        android:rowCount="1"
         android:background="#ffffff">
 
         <RelativeLayout
@@ -75,6 +73,7 @@
                 android:layout_marginBottom="4dp"/>
         </RelativeLayout>
 
+        <!--
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
@@ -95,7 +94,7 @@
                 android:layout_centerInParent="true"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="4dp"/>
-        </RelativeLayout>
+        </RelativeLayout> -->
     </GridLayout>
 
     <View
@@ -106,6 +105,18 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/frameLayout_secondActivity" />
+        android:id="@+id/frameLayout_secondActivity">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_chat_writeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chat_write_message"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="30dp"
+            app:fabSize="normal"
+            android:clickable="true"
+            />
+    </FrameLayout>
 
 </LinearLayout>
